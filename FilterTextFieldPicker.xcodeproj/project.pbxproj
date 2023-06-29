@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140EC8F72A4D49200029FA86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC8F62A4D49200029FA86 /* AppDelegate.swift */; };
+		140EC8F92A4D49200029FA86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC8F82A4D49200029FA86 /* SceneDelegate.swift */; };
+		140EC8FB2A4D49200029FA86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC8FA2A4D49200029FA86 /* ViewController.swift */; };
+		140EC8FE2A4D49200029FA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140EC8FC2A4D49200029FA86 /* Main.storyboard */; };
+		140EC9002A4D49210029FA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140EC8FF2A4D49210029FA86 /* Assets.xcassets */; };
+		140EC9032A4D49210029FA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140EC9012A4D49210029FA86 /* LaunchScreen.storyboard */; };
+		140EC90E2A4D49210029FA86 /* FilterTextFieldPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC90D2A4D49210029FA86 /* FilterTextFieldPickerTests.swift */; };
+		140EC9182A4D49210029FA86 /* FilterTextFieldPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC9172A4D49210029FA86 /* FilterTextFieldPickerUITests.swift */; };
+		140EC91A2A4D49210029FA86 /* FilterTextFieldPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC9192A4D49210029FA86 /* FilterTextFieldPickerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		140EC90A2A4D49210029FA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140EC8EB2A4D49200029FA86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140EC8F22A4D49200029FA86;
+			remoteInfo = FilterTextFieldPicker;
+		};
+		140EC9142A4D49210029FA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140EC8EB2A4D49200029FA86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140EC8F22A4D49200029FA86;
+			remoteInfo = FilterTextFieldPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		140EC8F32A4D49200029FA86 /* FilterTextFieldPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterTextFieldPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		140EC8F62A4D49200029FA86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		140EC8F82A4D49200029FA86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		140EC8FA2A4D49200029FA86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		140EC8FD2A4D49200029FA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		140EC8FF2A4D49210029FA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		140EC9022A4D49210029FA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		140EC9042A4D49210029FA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140EC9092A4D49210029FA86 /* FilterTextFieldPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilterTextFieldPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		140EC90D2A4D49210029FA86 /* FilterTextFieldPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTextFieldPickerTests.swift; sourceTree = "<group>"; };
+		140EC9132A4D49210029FA86 /* FilterTextFieldPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilterTextFieldPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		140EC9172A4D49210029FA86 /* FilterTextFieldPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTextFieldPickerUITests.swift; sourceTree = "<group>"; };
+		140EC9192A4D49210029FA86 /* FilterTextFieldPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTextFieldPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		140EC8F02A4D49200029FA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140EC9062A4D49210029FA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140EC9102A4D49210029FA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140EC8EA2A4D49200029FA86 = {
+			isa = PBXGroup;
+			children = (
+				140EC8F52A4D49200029FA86 /* FilterTextFieldPicker */,
+				140EC90C2A4D49210029FA86 /* FilterTextFieldPickerTests */,
+				140EC9162A4D49210029FA86 /* FilterTextFieldPickerUITests */,
+				140EC8F42A4D49200029FA86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		140EC8F42A4D49200029FA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				140EC8F32A4D49200029FA86 /* FilterTextFieldPicker.app */,
+				140EC9092A4D49210029FA86 /* FilterTextFieldPickerTests.xctest */,
+				140EC9132A4D49210029FA86 /* FilterTextFieldPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		140EC8F52A4D49200029FA86 /* FilterTextFieldPicker */ = {
+			isa = PBXGroup;
+			children = (
+				140EC8F62A4D49200029FA86 /* AppDelegate.swift */,
+				140EC8F82A4D49200029FA86 /* SceneDelegate.swift */,
+				140EC8FA2A4D49200029FA86 /* ViewController.swift */,
+				140EC8FC2A4D49200029FA86 /* Main.storyboard */,
+				140EC8FF2A4D49210029FA86 /* Assets.xcassets */,
+				140EC9012A4D49210029FA86 /* LaunchScreen.storyboard */,
+				140EC9042A4D49210029FA86 /* Info.plist */,
+			);
+			path = FilterTextFieldPicker;
+			sourceTree = "<group>";
+		};
+		140EC90C2A4D49210029FA86 /* FilterTextFieldPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				140EC90D2A4D49210029FA86 /* FilterTextFieldPickerTests.swift */,
+			);
+			path = FilterTextFieldPickerTests;
+			sourceTree = "<group>";
+		};
+		140EC9162A4D49210029FA86 /* FilterTextFieldPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				140EC9172A4D49210029FA86 /* FilterTextFieldPickerUITests.swift */,
+				140EC9192A4D49210029FA86 /* FilterTextFieldPickerUITestsLaunchTests.swift */,
+			);
+			path = FilterTextFieldPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		140EC8F22A4D49200029FA86 /* FilterTextFieldPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140EC91D2A4D49210029FA86 /* Build configuration list for PBXNativeTarget "FilterTextFieldPicker" */;
+			buildPhases = (
+				140EC8EF2A4D49200029FA86 /* Sources */,
+				140EC8F02A4D49200029FA86 /* Frameworks */,
+				140EC8F12A4D49200029FA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilterTextFieldPicker;
+			productName = FilterTextFieldPicker;
+			productReference = 140EC8F32A4D49200029FA86 /* FilterTextFieldPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		140EC9082A4D49210029FA86 /* FilterTextFieldPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140EC9202A4D49210029FA86 /* Build configuration list for PBXNativeTarget "FilterTextFieldPickerTests" */;
+			buildPhases = (
+				140EC9052A4D49210029FA86 /* Sources */,
+				140EC9062A4D49210029FA86 /* Frameworks */,
+				140EC9072A4D49210029FA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140EC90B2A4D49210029FA86 /* PBXTargetDependency */,
+			);
+			name = FilterTextFieldPickerTests;
+			productName = FilterTextFieldPickerTests;
+			productReference = 140EC9092A4D49210029FA86 /* FilterTextFieldPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		140EC9122A4D49210029FA86 /* FilterTextFieldPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140EC9232A4D49210029FA86 /* Build configuration list for PBXNativeTarget "FilterTextFieldPickerUITests" */;
+			buildPhases = (
+				140EC90F2A4D49210029FA86 /* Sources */,
+				140EC9102A4D49210029FA86 /* Frameworks */,
+				140EC9112A4D49210029FA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140EC9152A4D49210029FA86 /* PBXTargetDependency */,
+			);
+			name = FilterTextFieldPickerUITests;
+			productName = FilterTextFieldPickerUITests;
+			productReference = 140EC9132A4D49210029FA86 /* FilterTextFieldPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		140EC8EB2A4D49200029FA86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					140EC8F22A4D49200029FA86 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					140EC9082A4D49210029FA86 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 140EC8F22A4D49200029FA86;
+					};
+					140EC9122A4D49210029FA86 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 140EC8F22A4D49200029FA86;
+					};
+				};
+			};
+			buildConfigurationList = 140EC8EE2A4D49200029FA86 /* Build configuration list for PBXProject "FilterTextFieldPicker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 140EC8EA2A4D49200029FA86;
+			productRefGroup = 140EC8F42A4D49200029FA86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				140EC8F22A4D49200029FA86 /* FilterTextFieldPicker */,
+				140EC9082A4D49210029FA86 /* FilterTextFieldPickerTests */,
+				140EC9122A4D49210029FA86 /* FilterTextFieldPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		140EC8F12A4D49200029FA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140EC9032A4D49210029FA86 /* LaunchScreen.storyboard in Resources */,
+				140EC9002A4D49210029FA86 /* Assets.xcassets in Resources */,
+				140EC8FE2A4D49200029FA86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140EC9072A4D49210029FA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140EC9112A4D49210029FA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		140EC8EF2A4D49200029FA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140EC8FB2A4D49200029FA86 /* ViewController.swift in Sources */,
+				140EC8F72A4D49200029FA86 /* AppDelegate.swift in Sources */,
+				140EC8F92A4D49200029FA86 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140EC9052A4D49210029FA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140EC90E2A4D49210029FA86 /* FilterTextFieldPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140EC90F2A4D49210029FA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140EC91A2A4D49210029FA86 /* FilterTextFieldPickerUITestsLaunchTests.swift in Sources */,
+				140EC9182A4D49210029FA86 /* FilterTextFieldPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		140EC90B2A4D49210029FA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 140EC8F22A4D49200029FA86 /* FilterTextFieldPicker */;
+			targetProxy = 140EC90A2A4D49210029FA86 /* PBXContainerItemProxy */;
+		};
+		140EC9152A4D49210029FA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 140EC8F22A4D49200029FA86 /* FilterTextFieldPicker */;
+			targetProxy = 140EC9142A4D49210029FA86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		140EC8FC2A4D49200029FA86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140EC8FD2A4D49200029FA86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		140EC9012A4D49210029FA86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140EC9022A4D49210029FA86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		140EC91B2A4D49210029FA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		140EC91C2A4D49210029FA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		140EC91E2A4D49210029FA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DXFHCMHS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FilterTextFieldPicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteblueage.FilterTextFieldPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		140EC91F2A4D49210029FA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DXFHCMHS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FilterTextFieldPicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteblueage.FilterTextFieldPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		140EC9212A4D49210029FA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DXFHCMHS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteblueage.FilterTextFieldPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilterTextFieldPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FilterTextFieldPicker";
+			};
+			name = Debug;
+		};
+		140EC9222A4D49210029FA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DXFHCMHS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteblueage.FilterTextFieldPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilterTextFieldPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FilterTextFieldPicker";
+			};
+			name = Release;
+		};
+		140EC9242A4D49210029FA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DXFHCMHS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteblueage.FilterTextFieldPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FilterTextFieldPicker;
+			};
+			name = Debug;
+		};
+		140EC9252A4D49210029FA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DXFHCMHS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteblueage.FilterTextFieldPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FilterTextFieldPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		140EC8EE2A4D49200029FA86 /* Build configuration list for PBXProject "FilterTextFieldPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140EC91B2A4D49210029FA86 /* Debug */,
+				140EC91C2A4D49210029FA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140EC91D2A4D49210029FA86 /* Build configuration list for PBXNativeTarget "FilterTextFieldPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140EC91E2A4D49210029FA86 /* Debug */,
+				140EC91F2A4D49210029FA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140EC9202A4D49210029FA86 /* Build configuration list for PBXNativeTarget "FilterTextFieldPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140EC9212A4D49210029FA86 /* Debug */,
+				140EC9222A4D49210029FA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140EC9232A4D49210029FA86 /* Build configuration list for PBXNativeTarget "FilterTextFieldPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140EC9242A4D49210029FA86 /* Debug */,
+				140EC9252A4D49210029FA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 140EC8EB2A4D49200029FA86 /* Project object */;
+}
