@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "emoonacountrypicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/emoonadev/EmoonaCountryPicker",
+      "state" : {
+        "branch" : "master",
+        "revision" : "a2c0c483cefa8c5ed93ad4ad59d8bc2c013c274c"
+      }
+    }
+  ],
+  "version" : 2
+}

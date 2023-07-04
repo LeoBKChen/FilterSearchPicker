@@ -16,6 +16,16 @@
 		140EC90E2A4D49210029FA86 /* FilterTextFieldPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC90D2A4D49210029FA86 /* FilterTextFieldPickerTests.swift */; };
 		140EC9182A4D49210029FA86 /* FilterTextFieldPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC9172A4D49210029FA86 /* FilterTextFieldPickerUITests.swift */; };
 		140EC91A2A4D49210029FA86 /* FilterTextFieldPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC9192A4D49210029FA86 /* FilterTextFieldPickerUITestsLaunchTests.swift */; };
+		140EC9282A4D497C0029FA86 /* FilterSearchPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC9272A4D497C0029FA86 /* FilterSearchPickerViewController.swift */; };
+		140EC92A2A4D549A0029FA86 /* FilterSearchPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC9292A4D549A0029FA86 /* FilterSearchPickerViewModel.swift */; };
+		140EC92C2A4D61220029FA86 /* FilterSearchPickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140EC92B2A4D61220029FA86 /* FilterSearchPickerConfiguration.swift */; };
+		144AE4132A4EC75F000DF34C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144AE4122A4EC75F000DF34C /* UIView+Extension.swift */; };
+		14974EDE2A52746D00DE80C1 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14974EDD2A52746D00DE80C1 /* UIStackView+Extension.swift */; };
+		14974EE22A529AF500DE80C1 /* FSPCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14974EE12A529AF500DE80C1 /* FSPCellViewModel.swift */; };
+		14974EE42A529B6A00DE80C1 /* FSPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14974EE32A529B6A00DE80C1 /* FSPTableViewCell.swift */; };
+		14974EE62A529E1200DE80C1 /* FSPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14974EE52A529E1200DE80C1 /* FSPTableViewCell.xib */; };
+		14974EE92A52C1B600DE80C1 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 14974EE82A52C1B600DE80C1 /* CountryPicker */; };
+		14974EEB2A53BCF700DE80C1 /* FilterSearchPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14974EEA2A53BCF700DE80C1 /* FilterSearchPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,15 @@
 		140EC9132A4D49210029FA86 /* FilterTextFieldPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilterTextFieldPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		140EC9172A4D49210029FA86 /* FilterTextFieldPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTextFieldPickerUITests.swift; sourceTree = "<group>"; };
 		140EC9192A4D49210029FA86 /* FilterTextFieldPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTextFieldPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		140EC9272A4D497C0029FA86 /* FilterSearchPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSearchPickerViewController.swift; sourceTree = "<group>"; };
+		140EC9292A4D549A0029FA86 /* FilterSearchPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSearchPickerViewModel.swift; sourceTree = "<group>"; };
+		140EC92B2A4D61220029FA86 /* FilterSearchPickerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSearchPickerConfiguration.swift; sourceTree = "<group>"; };
+		144AE4122A4EC75F000DF34C /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		14974EDD2A52746D00DE80C1 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		14974EE12A529AF500DE80C1 /* FSPCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPCellViewModel.swift; sourceTree = "<group>"; };
+		14974EE32A529B6A00DE80C1 /* FSPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPTableViewCell.swift; sourceTree = "<group>"; };
+		14974EE52A529E1200DE80C1 /* FSPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPTableViewCell.xib; sourceTree = "<group>"; };
+		14974EEA2A53BCF700DE80C1 /* FilterSearchPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSearchPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14974EE92A52C1B600DE80C1 /* CountryPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +119,7 @@
 		140EC8F52A4D49200029FA86 /* FilterTextFieldPicker */ = {
 			isa = PBXGroup;
 			children = (
+				140EC9262A4D49580029FA86 /* Component */,
 				140EC8F62A4D49200029FA86 /* AppDelegate.swift */,
 				140EC8F82A4D49200029FA86 /* SceneDelegate.swift */,
 				140EC8FA2A4D49200029FA86 /* ViewController.swift */,
@@ -127,6 +148,38 @@
 			path = FilterTextFieldPickerUITests;
 			sourceTree = "<group>";
 		};
+		140EC9262A4D49580029FA86 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				14974EE02A529ADE00DE80C1 /* Cell */,
+				14974EDF2A52747A00DE80C1 /* Extension */,
+				140EC9272A4D497C0029FA86 /* FilterSearchPickerViewController.swift */,
+				140EC9292A4D549A0029FA86 /* FilterSearchPickerViewModel.swift */,
+				140EC92B2A4D61220029FA86 /* FilterSearchPickerConfiguration.swift */,
+				14974EEA2A53BCF700DE80C1 /* FilterSearchPicker.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		14974EDF2A52747A00DE80C1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				14974EDD2A52746D00DE80C1 /* UIStackView+Extension.swift */,
+				144AE4122A4EC75F000DF34C /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		14974EE02A529ADE00DE80C1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				14974EE12A529AF500DE80C1 /* FSPCellViewModel.swift */,
+				14974EE32A529B6A00DE80C1 /* FSPTableViewCell.swift */,
+				14974EE52A529E1200DE80C1 /* FSPTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +196,9 @@
 			dependencies = (
 			);
 			name = FilterTextFieldPicker;
+			packageProductDependencies = (
+				14974EE82A52C1B600DE80C1 /* CountryPicker */,
+			);
 			productName = FilterTextFieldPicker;
 			productReference = 140EC8F32A4D49200029FA86 /* FilterTextFieldPicker.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +271,9 @@
 				Base,
 			);
 			mainGroup = 140EC8EA2A4D49200029FA86;
+			packageReferences = (
+				14974EE72A52C1B600DE80C1 /* XCRemoteSwiftPackageReference "EmoonaCountryPicker" */,
+			);
 			productRefGroup = 140EC8F42A4D49200029FA86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140EC9032A4D49210029FA86 /* LaunchScreen.storyboard in Resources */,
+				14974EE62A529E1200DE80C1 /* FSPTableViewCell.xib in Resources */,
 				140EC9002A4D49210029FA86 /* Assets.xcassets in Resources */,
 				140EC8FE2A4D49200029FA86 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140EC92A2A4D549A0029FA86 /* FilterSearchPickerViewModel.swift in Sources */,
+				14974EE22A529AF500DE80C1 /* FSPCellViewModel.swift in Sources */,
+				144AE4132A4EC75F000DF34C /* UIView+Extension.swift in Sources */,
+				140EC92C2A4D61220029FA86 /* FilterSearchPickerConfiguration.swift in Sources */,
 				140EC8FB2A4D49200029FA86 /* ViewController.swift in Sources */,
 				140EC8F72A4D49200029FA86 /* AppDelegate.swift in Sources */,
+				14974EDE2A52746D00DE80C1 /* UIStackView+Extension.swift in Sources */,
 				140EC8F92A4D49200029FA86 /* SceneDelegate.swift in Sources */,
+				140EC9282A4D497C0029FA86 /* FilterSearchPickerViewController.swift in Sources */,
+				14974EEB2A53BCF700DE80C1 /* FilterSearchPicker.swift in Sources */,
+				14974EE42A529B6A00DE80C1 /* FSPTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +670,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14974EE72A52C1B600DE80C1 /* XCRemoteSwiftPackageReference "EmoonaCountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emoonadev/EmoonaCountryPicker";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14974EE82A52C1B600DE80C1 /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14974EE72A52C1B600DE80C1 /* XCRemoteSwiftPackageReference "EmoonaCountryPicker" */;
+			productName = CountryPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 140EC8EB2A4D49200029FA86 /* Project object */;
 }
